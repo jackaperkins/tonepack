@@ -32,5 +32,7 @@ We `npm install typescript ts-loader` obviously, so we can work with typescript.
 
 Now we can re-run `npx webpack` and it translates our ts and barfs it all into our one big `bundle.js` file! woo hoo! reload the `index.html` in the browser and hear the beep of life in your heart.
 
-
 ***the one annoying change i had to make to the webpack ts tutorial was they assumed the code was just in the top level directory, i had to change the path to `src/index.js`. also notice they assumed our starting file was `.ts`, because thats what you do for typescript. we dont really give a fuck about using typescript features, so i left the index.js file as regular js. this was a pretty easy error to figure out, when i ran the tutorial code verbatim webpack complained about not finding the file and i saw the path was wrong.
+
+## Final thoughts
+And now, [my final thoughts](https://youtu.be/A34tKMBoiyU?t=80)
