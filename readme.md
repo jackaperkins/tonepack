@@ -11,7 +11,7 @@ You asked me this at just the right time since ive been fucking with this stuff 
 So this turned out to be pretty 'easy'. obviously full of details you know from experience but that's life i guess.
 
 ## Webpack 101
-To start off with, i just focused on making my own simple demo code that used modules to test out webpack. Thats the index.js and the otherModule.js.
+To start off with, i just focused on making my own simple demo code that used modules to test out webpack. Thats the `index.js` and the `otherModule.js`.
 I just did a regular import statement from one to the other. This works fine if you run it on the cli with node, but obviously this is the part that doesnt work in browsers.
 
 I ran `npm install --save webpack webpackcli` to get the webpack stuff we'd need.
